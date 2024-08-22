@@ -37,7 +37,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
         }
       } else {
         if (gostaDeFantasia) {
-          return "As aventuras de pi";
+    return "As aventuras de pi";
         } else {
           return "Depois da chuva";
         }
@@ -46,8 +46,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
   } else {
     if (gostaDeFantasia) {
       return "A viagem de chihiro";
-    } else {
-      return "O feitiço do tempo";
-    }
-  }
-}
+    } else      return "O feitiço do tempo";
+ }
+ }
+
